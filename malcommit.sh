@@ -51,3 +51,4 @@ while IFS="" read -r $READFLAGS c || [ "$c" ]; do
     fi
 
     git -C "$DIR" add "$(basename $OUTFILE)"
+    git -C
