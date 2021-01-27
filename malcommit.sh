@@ -34,4 +34,4 @@ else
 fi
 
 if [ -e "$OUTFILE" ]; then
-    echo "File $OUTF
+    echo "File $OUTFILE alread
