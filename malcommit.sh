@@ -38,4 +38,4 @@ if [ -e "$OUTFILE" ]; then
     exit 1
 fi 
 
-[[ $NCHARS -ge 1 ]] && READFLAGS="-r -N$NCHA
+[[ $NCHARS -ge 1 ]] && READFLAGS="-r -N$NCHARS" || REA
