@@ -2,4 +2,4 @@ To use:
 
 ```
 chmod +x malcmt.sh
-./malcommit.sh [-n nchars (p
+./malcommit.sh [-n nchars (per commit)
