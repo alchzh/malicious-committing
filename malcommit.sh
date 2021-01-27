@@ -45,4 +45,4 @@ while IFS="" read -r $READFLAGS c || [ "$c" ]; do
 
     CMTMSG="Added line"
 
-    if [[ $FORCE_C
+    if [[ $FORCE_CMT_MSG ]];
