@@ -2,3 +2,5 @@
 
 OUTFILE=
 DIR="."
+
+OPTIND=1
