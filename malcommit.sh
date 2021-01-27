@@ -50,4 +50,4 @@ while IFS="" read -r $READFLAGS c || [ "$c" ]; do
         CMTMSG=$(printf "Added characters '%q'" "$c")
     fi
 
-    g
+    git -C "$DI
