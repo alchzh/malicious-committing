@@ -35,3 +35,4 @@ fi
 
 if [ -e "$OUTFILE" ]; then
     echo "File $OUTFILE already exists"
+    exit 1
