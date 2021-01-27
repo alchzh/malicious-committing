@@ -43,4 +43,4 @@ fi
 while IFS="" read -r $READFLAGS c || [ "$c" ]; do
     printf "%s" "$c" >> $OUTFILE
 
-   
+    CMTMSG="A
