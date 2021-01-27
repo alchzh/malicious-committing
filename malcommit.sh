@@ -28,4 +28,4 @@ if [ -d "$DEST" ]; then
     OUTFILE="$DEST/$(basename $IN)"
     DIR="$DEST"
 else
-    DIR=
+    DIR="$(dirname
