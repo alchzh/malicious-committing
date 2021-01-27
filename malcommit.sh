@@ -20,4 +20,5 @@ shift $((OPTIND - 1))
 IN=$1
 DEST=$2
 
-if [ ! -e "$IN" ]; th
+if [ ! -e "$IN" ]; then
+    ech
