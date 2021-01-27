@@ -27,4 +27,5 @@ fi
 if [ -d "$DEST" ]; then
     OUTFILE="$DEST/$(basename $IN)"
     DIR="$DEST"
-els
+else
+    DIR=
