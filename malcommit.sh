@@ -51,4 +51,5 @@ while IFS="" read -r $READFLAGS c || [ "$c" ]; do
     fi
 
     git -C "$DIR" add "$(basename $OUTFILE)"
-    git -C "$DIR" commit -o "$(basename $OUTFILE)" -m "$CMTM
+    git -C "$DIR" commit -o "$(basename $OUTFILE)" -m "$CMTMSG"
+done <
