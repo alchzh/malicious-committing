@@ -18,3 +18,6 @@ done
 shift $((OPTIND - 1))
 
 IN=$1
+DEST=$2
+
+i
