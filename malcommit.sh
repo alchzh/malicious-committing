@@ -21,4 +21,4 @@ IN=$1
 DEST=$2
 
 if [ ! -e "$IN" ]; then
-    echo "'$IN': No such fi
+    echo "'$IN': No such file or dire
