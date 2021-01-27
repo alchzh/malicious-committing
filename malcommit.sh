@@ -11,4 +11,4 @@ while getopts "n:m:" f; do
   case ${f} in
     m) FORCE_CMT_MSG=$OPTARG;;
     n) NCHARS=$OPTARG;;
-    h) echo "./malcommit.sh [
+    h) echo "./malcommit.sh [-n nchars 
