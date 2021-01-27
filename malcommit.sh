@@ -46,4 +46,5 @@ while IFS="" read -r $READFLAGS c || [ "$c" ]; do
     CMTMSG="Added line"
 
     if [[ $FORCE_CMT_MSG ]]; then CMTMSG=$FORCE_CMT_MSG
-    elif [[ $NCHARS -ge 1 ]]; th
+    elif [[ $NCHARS -ge 1 ]]; then
+       
