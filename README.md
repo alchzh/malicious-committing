@@ -1,4 +1,5 @@
 To use:
 
 ```
-chmod +x malcmt.s
+chmod +x malcmt.sh
+./malcom
