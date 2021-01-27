@@ -6,4 +6,4 @@ DIR="."
 OPTIND=1
 
 NCHARS=
-F
+FORCE_CMT_M
