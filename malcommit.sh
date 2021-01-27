@@ -25,4 +25,4 @@ if [ ! -e "$IN" ]; then
 fi
 
 if [ -d "$DEST" ]; then
-    OUTFILE="$DEST/$(base
+    OUTFILE="$DEST/$(basename $IN)"
