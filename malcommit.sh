@@ -34,4 +34,4 @@ else
 fi
 
 if [ -e "$OUTFILE" ]; then
-    echo "File $OUTFILE alread
+    echo "File $OUTFILE already exists"
