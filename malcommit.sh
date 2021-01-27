@@ -25,4 +25,4 @@ if [ ! -e "$IN" ]; then
 fi
 
 if [ -d "$DEST" ]; then
-    OUTFILE="$D
+    OUTFILE="$DEST/$(base
