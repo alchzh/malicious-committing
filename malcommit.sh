@@ -33,4 +33,4 @@ else
     OUTFILE="$DEST"
 fi
 
-if [ -e
+if [ -e "$OUTFILE
