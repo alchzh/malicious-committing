@@ -29,4 +29,5 @@ if [ -d "$DEST" ]; then
     DIR="$DEST"
 else
     DIR="$(dirname $DEST)"
-    mkdir -
+    mkdir -p "$DIR"
+ 
