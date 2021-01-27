@@ -15,4 +15,6 @@ while getopts "n:m:" f; do
   esac
 done
 
-shift $((OPTIND - 1
+shift $((OPTIND - 1))
+
+IN=$1
