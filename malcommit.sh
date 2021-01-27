@@ -24,4 +24,4 @@ if [ ! -e "$IN" ]; then
     echo "'$IN': No such file or directory"
 fi
 
-if [ -d "
+if [ -d "$DEST" ]; 
