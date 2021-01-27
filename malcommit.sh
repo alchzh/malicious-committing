@@ -6,4 +6,5 @@ DIR="."
 OPTIND=1
 
 NCHARS=
-FORCE_CMT_M
+FORCE_CMT_MSG=
+while 
