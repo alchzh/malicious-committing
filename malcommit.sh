@@ -12,4 +12,5 @@ while getopts "n:m:" f; do
     m) FORCE_CMT_MSG=$OPTARG;;
     n) NCHARS=$OPTARG;;
     h) echo "./malcommit.sh [-n nchars (per commit)] [-m forced_commit_message] input_file output_file_or_directory"
-  
+  esac
+done
