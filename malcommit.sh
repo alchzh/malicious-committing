@@ -47,4 +47,5 @@ while IFS="" read -r $READFLAGS c || [ "$c" ]; do
 
     if [[ $FORCE_CMT_MSG ]]; then CMTMSG=$FORCE_CMT_MSG
     elif [[ $NCHARS -ge 1 ]]; then
-        CMTMSG=$(printf "Added characters '%q'"
+        CMTMSG=$(printf "Added characters '%q'" "$c")
+   
