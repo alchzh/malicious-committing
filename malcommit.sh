@@ -41,4 +41,4 @@ fi
 [[ $NCHARS -ge 1 ]] && READFLAGS="-r -N$NCHARS" || READFLAGS="-r"
 
 while IFS="" read -r $READFLAGS c || [ "$c" ]; do
-    printf "%s" "
+    printf "%s" "$c" >> $OU
