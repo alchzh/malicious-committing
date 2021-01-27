@@ -40,4 +40,4 @@ fi
 
 [[ $NCHARS -ge 1 ]] && READFLAGS="-r -N$NCHARS" || READFLAGS="-r"
 
-while IFS="" read
+while IFS="" read -r $READF
