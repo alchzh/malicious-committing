@@ -31,4 +31,6 @@ else
     DIR="$(dirname $DEST)"
     mkdir -p "$DIR"
     OUTFILE="$DEST"
-f
+fi
+
+if [ -e
