@@ -14,3 +14,5 @@ while getopts "n:m:" f; do
     h) echo "./malcommit.sh [-n nchars (per commit)] [-m forced_commit_message] input_file output_file_or_directory"
   esac
 done
+
+shift $((
