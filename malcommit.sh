@@ -7,4 +7,4 @@ OPTIND=1
 
 NCHARS=
 FORCE_CMT_MSG=
-while 
+while getopts "n
